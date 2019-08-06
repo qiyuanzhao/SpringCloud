@@ -12,6 +12,10 @@
         <module>SpringCloudService</module>
         <module>HelloService</module>
         <module>SpringCloudService2</module>
+        <module>RibbonConsumer</module>
+        <module>Common</module>
+        <module>hytrix-dashboard</module>
+        <module>turbine</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

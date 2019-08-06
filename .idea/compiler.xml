@@ -6,16 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Common" />
         <module name="HelloService" />
+        <module name="hytrixdashboard" />
+        <module name="RibbonConsumer" />
         <module name="SpringCloudService" />
         <module name="SpringCloudService2" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Common" target="1.8" />
       <module name="HelloService" target="1.8" />
+      <module name="hytrixdashboard" target="1.8" />
+      <module name="RibbonConsumer" target="1.8" />
       <module name="SpringCloudDemo" target="1.8" />
       <module name="SpringCloudService" target="1.8" />
       <module name="SpringCloudService2" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Common" options="-parameters" />
+      <module name="HelloService" options="-parameters" />
+      <module name="RibbonConsumer" options="-parameters" />
+      <module name="SpringCloudService" options="-parameters" />
+      <module name="SpringCloudService2" options="-parameters" />
+      <module name="hytrixdashboard" options="-parameters" />
+      <module name="turbine" options="-parameters" />
+    </option>
   </component>
 </project>

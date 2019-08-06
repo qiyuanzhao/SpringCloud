@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloService/HelloService.iml" filepath="$PROJECT_DIR$/HelloService/HelloService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RibbonConsumer/RibbonConsumer.iml" filepath="$PROJECT_DIR$/RibbonConsumer/RibbonConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo.iml" filepath="$PROJECT_DIR$/SpringCloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudService/SpringCloudService.iml" filepath="$PROJECT_DIR$/SpringCloudService/SpringCloudService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudService2/SpringCloudService2.iml" filepath="$PROJECT_DIR$/SpringCloudService2/SpringCloudService2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hytrix-dashboard/hytrixdashboard.iml" filepath="$PROJECT_DIR$/hytrix-dashboard/hytrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
     </modules>
   </component>
 </project>
